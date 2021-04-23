@@ -6,8 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 Character.create([
-	{ name: "Neo", description: false },
-	{ name: "Trinity", description: false },
-	{ name: "Morpheus", description: false },
-	{ name: "Agent Smith", description: false },
+	{ name: "Neo", description: "Neo (born as Thomas A. Anderson, also known as The One" },
+	{ name: "Trinity", description: "Morpheus is a fictional character in The Matrix franchise." },
+	{ name: "Morpheus", description: "Morpheus is a fictional character in The Matrix franchise." },
+	{ name: "Agent Smith", description: "Agent Smith is a fictional character and the main antagonist." },
 ])
